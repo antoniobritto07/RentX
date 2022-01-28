@@ -10,7 +10,7 @@ categoriesRoutes.post("/", (request, response) => {
 
     const category = new Category();
 
-    Object.assign(category, {
+    Object.assign(category, { // nunca tinha usado o Object.assign
         name,
         description,
         created_at: new Date()
