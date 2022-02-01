@@ -1,0 +1,22 @@
+Código Limpo & Arquitetura Limpa
+
+SOLID:
+S => SRP: Single Responsabily Principle
+O => OCP: Open-Closed Principle
+L => LSP: Liskov Substitution Principle
+I => ISP: Interface Segreation Principle
+D => DIP: Dependency Inversion Principle 
+
+# Single Responsabily Principle #
+- fazer com que cada coisa faça uma única coisa(a ideia primordial dela)
+- o módulo deve ter uma, e apenas uma razão para ele mudar
+
+# Dependency Inversion Principle #
+- esse princípio diz que o código que implementa uma política de alto nível não deve depender do 
+  código que implementa detalhes de baixo nível 
+- Ou seja, serviços não precisam saber dos dados do repository e tudo mais...
+
+# Liskov Substitution Principle #
+- Barbara Liskov => pessoa que inventou esse princípio 
+- Uncle Bob diz que objetos podem ser substituídos por seus subtipos sem que isso afete
+  a execução correta do programa
