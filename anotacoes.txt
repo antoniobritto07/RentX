@@ -20,3 +20,14 @@ D => DIP: Dependency Inversion Principle
 - Barbara Liskov => pessoa que inventou esse princípio 
 - Uncle Bob diz que objetos podem ser substituídos por seus subtipos sem que isso afete
   a execução correta do programa
+
+-----------------------------------------------------------------------------
+# Docker #
+- ferramenta para criação de containers
+- container: ambiente isolado 
+- imagens: instruções para criação de um container
+- o que roda localmente, roda em produção
+- mesmo SO, compartilhando recursos da máquina HOST
+
+- o docker vai basicamente pegar a imagem que a gente tá querendo criar, e depois vai criar uma ponte entre o sistema operacional que estamos querendo usar e o container
+- essa parte de DOCKER fica mais relacionado com a parte de INFRA, mas é bom o dev saber também
