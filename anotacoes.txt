@@ -31,3 +31,8 @@ D => DIP: Dependency Inversion Principle
 
 - o docker vai basicamente pegar a imagem que a gente tá querendo criar, e depois vai criar uma ponte entre o sistema operacional que estamos querendo usar e o container
 - essa parte de DOCKER fica mais relacionado com a parte de INFRA, mas é bom o dev saber também
+
+----------------------------------------------------------------------------
+O que são os ORMS?
+MODEL <-> ORM <-> Banco de dados
+Sequelize é um ORM também, enquanto que o Knex é um queryBuilder
